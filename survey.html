@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Page</title>
+    <link rel="stylesheet" href="styles/survey.css">
+</head>
+<body>
+    <div>
+        <nav id="navbar">
+            <li class="menu"><a href="index.html" class="link">HOME</a> </li>
+            <li class="menu"><a href="survey.html" class="link">SURVEY</a> </li>
+          </nav>   
+  
+    <div id="form-container">
+       
+        <h2>Free Fire New Features Survey</h2>
+        <p>Dear player, we want to know more about your game experience in Free Fire. Your feedback is truly important for us, let's start :
+        </p>
+        <form>
+           
+           <p class="quiz-question">1. What is the OS of your mobile phone? (single-select) </p> 
+            <div class="quiz-container">
+                <div class="quiz">
+
+                    <input type="radio" name="os" value="Android"> 
+                    <label for="Android">Android</label>
+                </div>
+                <div class="quiz">
+                    <input type="radio" name="os" value="Apple">
+                    <label for="Apple">Apple (iOS)</label>
+                </div>
+           
+                </div>
+           <p class="quiz-question">2. How many Free Fire matches have you played so for? (single-select)</p> 
+            <div class="quiz-container">
+                <div class="quiz">
+
+                    <input type="radio" name="matches" value="1-5 Matches"> 
+                    <label for="1-5 Matches">1-5 Matches</label>
+                </div>
+                <div class="quiz">
+                    <input type="radio" name="matches" value="6-10 Matches">
+                    <label for="6-10 Matches">6-10 Matches</label>
+                </div>
+         </div>
+
+            <div class="quiz-container">
+                <div class="quiz">
+
+                    <input type="radio" name="matches" value="11-30 Matches"> 
+                    <label for="11-30 Matches">11-30 Matches</label>
+                </div>
+                <div class="quiz">
+                    <input type="radio" name="matches" value="31-50 Matches">
+                    <label for="31-50 Matches">31-50 Matches</label>
+                </div>
+
+         </div>
+
+         <div class="quiz">
+            <input type="radio" name="matches" value="More than 51 matches">
+            <label for="More than 51 matches">More than 51 matches</label>
+        </div>
+            
+      
+        <p class="quiz-question">3. For the skills system above, how would you rate your feeling of it? (single-select)</p> 
+
+        <div class="quiz-container">
+            <div class="quiz">
+
+                <input type="radio" name="skills" value="fully support"> 
+                <label for="fully support">Fully Support</label>
+            </div>
+            <div class="quiz">
+                <input type="radio" name="skills" value="support">
+                <label for="support">Support</label>
+            </div>
+     </div>
+
+        <div class="quiz-container">
+            <div class="quiz">
+
+                <input type="radio" name="skills" value="neutral"> 
+                <label for="neutral">Neutral</label>
+            </div>
+            <div class="quiz">
+                <input type="radio" name="skills" value="not support">
+                <label for="not support">Not Support</label>
+            </div>
+
+     </div>
+
+     <div class="quiz">
+        <input type="radio" name="skills" value="fully not support">
+        <label for="fully not support">Fully Not Support</label>
+    </div>
+    <div class="comment">
+        <p class="quiz-question">4. How We Can Improve Your Game Experience</p>
+        <textarea name="comment" id="comment" cols="60" rows="7"></textarea> <br>
+        <input class="submit" type="submit" value="Submit">
+    </div>
+     
+        </form>
+    </div>
+</div>
+</body>
+</html>

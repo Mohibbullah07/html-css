@@ -1,0 +1,274 @@
+/* Star style For navbar */
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: black;
+    color: whitesmoke;
+    
+}
+
+@media only screen and (max-width:600px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+       
+    
+
+    }
+  }
+
+.menu{
+    list-style: none;
+    padding: 20px 0px 20px 0px;
+}
+
+.link{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+/* End Style For Navbar */
+
+
+/* Start style For Banner */
+.banner{
+    background-image: url('/assert/freefire.jpg');
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+
+@media only screen and (max-width:600px) {
+    .banner {
+        background-size: auto;
+    
+
+    }
+  }
+
+#banner-text{
+    
+    color: whitesmoke;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+ 
+}
+
+@media only screen and (max-width:600px) {
+    #banner-text {
+        color: whitesmoke;
+         position: absolute;
+        top: 25%;
+          left: 10%;
+    
+
+    }
+  }
+
+#banner-title{
+    font-size: 60px;
+}
+
+#banner-subtitle{
+ font-size: 35px;
+}
+
+#download-container{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width:600px) {
+    #download-container {
+      display: flex;
+      flex-direction: column;
+      width: fit-content;
+
+    }
+  }
+
+.download-link{
+    background-color: black;
+    padding: 10px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+
+/* End Style For Banner */
+
+
+/* Start Style For Latest News */
+
+#news-container{
+width: 1070px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+
+}
+
+@media only screen and (max-width:600px) {
+    #news-container {
+      display: flex;
+      flex-direction: column;
+      width: fit-content;
+
+    }
+  }
+
+
+#news-heading{
+    font-size: 50px;
+}
+.hr{
+ color: yellow;
+ background-color: yellow;
+ width: 7rem;
+ height: 3px;
+ margin-bottom: 30px;
+ margin-top: 10px;
+}
+
+#view-all{
+    text-align: end;
+    margin-bottom: 10px;
+    
+}
+.view-all{
+    color: black;
+    font-style: normal;
+    font-weight: normal;
+ 
+}
+#news-card{
+    display: flex;
+    gap: 10px;
+ 
+}
+
+@media only screen and (max-width:600px) {
+    #news-card {
+      display: flex;
+      flex-direction: column;
+      width: fit-content;
+
+    }
+  }
+
+
+.card{
+    width: 350px;
+}
+
+@media only screen and (max-width:600px) {
+    .card {
+      
+      width: 100%;
+
+    }
+  }
+
+/* End Style For Latest News */
+
+
+/* Start Of E-Sports Section */
+
+.esports-container{
+    display: flex;
+    width: 1070px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+
+}
+
+.esports-div{
+    width: 50%;
+}
+
+@media only screen and (max-width:600px) {
+   .esports-container {
+     display: flex;
+     flex-direction: column-reverse;
+      margin-top: 30px;
+      width: fit-content;
+ 
+    }
+   
+  }
+
+@media only screen and (max-width:600px) {
+    #man-picture {
+     width: 40%;
+      
+    }
+   
+  }
+#man-picture{
+    width: 90%;
+}
+
+.esports-title{
+    font-size: 50px;
+}
+.esports-subtitle{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.esports-text{
+    margin-bottom: 30px;
+}
+
+
+/* End Of E-Sports Section */
+
+
+/* Start Of Footer Section */
+#footer-main-container{
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+}
+#footer-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 1070px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    text-decoration: underline;
+   
+}
+
+
+@media only screen and (max-width:600px) {
+    #footer-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: fit-content;
+       
+    }
+   
+  }
+
+.logo{
+    width: 50%;
+}
+
+#copyright-text{
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+padding-bottom: 30px;
+}
+
+/* End Of Footer Section */

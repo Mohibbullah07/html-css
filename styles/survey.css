@@ -1,0 +1,89 @@
+/* Style For Survey */
+*{
+    margin: 0;
+    padding: 0;
+}
+#form-container{
+    width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+.quiz-container{
+  
+   display: flex;
+   gap: 30px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+.quiz-question{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.quiz{
+   border: 1px dotted gray;
+   width: 180px;
+   padding: 5px 3px;
+   margin-top: 10px;
+  
+
+}
+
+#navbar{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: black;
+    color: whitesmoke;
+    width: 52rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width:600px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+       
+    
+
+    }
+  }
+
+.menu{
+    list-style: none;
+    padding: 20px 0px 20px 0px;
+}
+
+.link{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+.comment{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.submit{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: green;
+   color: white;
+   width: 100px;
+   padding: 5px;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 5px;
+   margin-top: 30px;
+}
+#form-container{
+    background-image: url("/assert/banner.png");
+    background-size: cover;
+    padding: 30px 0px 30px 30px;
+
+  
+}
